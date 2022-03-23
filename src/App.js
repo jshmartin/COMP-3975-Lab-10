@@ -22,7 +22,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/home" element={<HomePage />} exact />
+          <Route path="/" element={<HomePage />} exact />
           <Route path="/privacy" element={<PrivacyPage />} exact />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
