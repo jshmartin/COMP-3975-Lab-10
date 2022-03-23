@@ -48,3 +48,11 @@ footer {
 #link, #link2 {
   text-decoration: underline;
 }
+
+.link {
+  color: black;
+}
+
+#privacy_link {
+  padding-left: 10px;
+}
